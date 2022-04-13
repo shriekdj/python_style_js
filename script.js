@@ -7,8 +7,8 @@ class Doc extends document {
     return document.getElementByClassName(className);
   }
 
-  function get_elem(var tag) {
-    return document.getElementByTag(tag);
+  function get_elem(var tagName) {
+    return document.getElementByTag(tagName);
   }
 
   function get_elems(var id) {
@@ -19,8 +19,8 @@ class Doc extends document {
     return document.getElementsByClassName(className);
   }
 
-  function get_elems(var tag) {
-    return document.getElementsByTag(tag);
+  function get_elems(var tagName) {
+    return document.getElementsByTag(tagName);
   }
 };
 
