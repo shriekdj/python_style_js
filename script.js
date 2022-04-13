@@ -1,4 +1,4 @@
-class Doc extends document {
+class Doc extends Document {
   function get_elem(var id) {
     return document.getElementById(id);
   }
