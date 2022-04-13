@@ -17,12 +17,12 @@ document.getElementsByTag("value");
 To The Given Below Commands
 
 ```javascript
-doc.getElem(id="value");
-doc.getElem(className="value);
-doc.getElem(tag="value");
-doc.getElems(id="value");
-doc.getElems(className="value");
-doc.getElems(tag="value");
+doc.get_elem(id="value");
+doc.get_elem(className="value);
+doc.get_elem(tag="value");
+doc.get_elems(id="value");
+doc.get_elems(className="value");
+doc.get_elems(tag="value");
 ```
 
 I Know there is Jquery out there but this is more describes the workings.
